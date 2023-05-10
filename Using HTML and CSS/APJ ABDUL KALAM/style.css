@@ -1,0 +1,40 @@
+body{
+    background-color: #e5e5fd;
+ 
+ 
+}
+.head img{
+    height: 300px;
+    width: 289px;
+    border-radius: 300px;
+    margin: 100px 227px;
+}
+
+
+
+.head h1{
+    margin: -74px 398px;
+    font-size: 68px;
+}
+.head h2{
+    margin-left: 907px;
+    font-size:39px;
+    margin-top:88px;
+}
+.head h3{
+    margin: 35px 227px;
+    font-size:55px;
+}
+.para{
+    margin: 95px 115px;
+    
+}
+.foot{
+    margin-left: 500px;
+    font-size:20px;
+   
+}
+.para ul{
+    font-size:15px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}

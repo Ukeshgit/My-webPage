@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.container{
+    background-image: url("developer.png");
+    height:100vh;  
+}
+.hi{
+    font-size:72px;
+    /* display:flex;
+    justify-content: center; */
+   
+}
+ .heading{
+    max-width:900px;
+    color:white;
+    display:block;
+    margin:0 auto;
+    padding-top:64px ;
+    padding-left:23px;
+    font-family: 'Roboto', sans-serif;
+ }
+ .black_box{
+    background-color:black;
+    color:white;
+    font-size:30px;
+    display:flex;
+    justify-content:center;
+    height:120px;
+    padding:30px;
+    font-family: 'Roboto', sans-serif;
+ }
+ .about{
+   display:flex;
+   justify-content: center;
+   min-height:400px;
+}
+
+.webDev{
+    height:320px;
+    margin:14px;
+    max-width:320px;
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.2);
+
+}
+.appDev{
+    height:320px;
+    margin:14px;
+    max-width:320px;
+   box-shadow: 3px 5px 5px rgba(1,1,1,0.2);
+    min-height: 220px;
+}
+.UIDes{
+    height:320px;
+    margin:14px;
+    max-width:320px;
+    box-shadow: 3px 5px 5px rgba(1,1,1,0.2);
+    min-height: 220px;
+
+}
+h2{
+    font-size:1.2rem;
+}
+.webDev:hover{
+    transform:scale(1.02);
+    cursor:pointer;
+    transition: 0.3s ease-in-out;
+}
+.appDev:hover{
+    transform:scale(1.02);
+    cursor:pointer;   
+    transition: 0.3s ease-in-out;
+}.UIDes:hover{
+    transform:scale(1.02);
+    cursor:pointer;  
+    transition: 0.3s ease-in-out;
+}
+.contact{
+    background-color:#515603;
+    min-height: 300px;
+    padding: 32px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+.contact h3{
+    font-size: 64px;
+    color:white;
+    margin:12px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.contact p{
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.conAbo{
+    display:flex;
+
+}
+.aboutUs{
+    background-color: #722300;
+    min-height: 300px;
+    padding: 32px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.aboutUs h4{
+    font-size:64px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.anoAboutPara{
+    padding:5px;
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+}
+.aboutPara{
+    font-size:20px; 
+}
+.footer{
+    background-color:black;
+    height:50px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}
+.footer p{
+    font-family: 'Roboto', sans-serif;
+  text-align:center;
+   padding:10px;
+   font-family: 'Roboto', sans-serif;
+}
